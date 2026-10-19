@@ -1,0 +1,199 @@
+/* ========================================================
+   THEME DEFINITIONS: 5 Comprehensive Color Palettes
+   1. Midnight Purple: Dark Navy, Violet, Electric Purple
+   2. Ocean Blue: Deep Blue, Cyan, White
+   3. Emerald Green: Dark Green, Emerald, Mint
+   4. Sunset: Charcoal, Coral, Orange, Pink
+   5. Minimal Light: White, Slate, Royal Blue
+   ======================================================== */
+
+:root,
+[data-theme="midnight-purple"] {
+  --theme-id: "midnight-purple";
+  --theme-name: "Midnight Purple";
+  --bg-body: #090a16;
+  --bg-secondary: #0f1124;
+  --bg-card: rgba(19, 21, 46, 0.72);
+  --bg-card-hover: rgba(28, 31, 68, 0.85);
+  --bg-card-solid: #151834;
+  --bg-nav: rgba(9, 10, 22, 0.82);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #8b99b5;
+  
+  --accent-primary: #a855f7;
+  --accent-secondary: #6366f1;
+  --accent-highlight: #ec4899;
+  --accent-gradient: linear-gradient(135deg, #c084fc 0%, #8b5cf6 50%, #6366f1 100%);
+  --accent-gradient-alt: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+  --accent-glow: rgba(168, 85, 247, 0.35);
+  --accent-glow-strong: rgba(139, 92, 246, 0.65);
+  
+  --border-subtle: rgba(168, 85, 247, 0.18);
+  --border-hover: rgba(192, 132, 252, 0.45);
+  
+  --badge-bg: rgba(168, 85, 247, 0.12);
+  --badge-text: #d8b4fe;
+  --badge-border: rgba(168, 85, 247, 0.28);
+  
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.65);
+  --shadow-glow: 0 0 35px rgba(168, 85, 247, 0.25);
+  --ring-color: rgba(168, 85, 247, 0.25);
+  
+  --dot-color: rgba(168, 85, 247, 0.08);
+  --preview-colors: #090a16, #8b5cf6, #c084fc;
+}
+
+[data-theme="ocean-blue"] {
+  --theme-id: "ocean-blue";
+  --theme-name: "Ocean Blue";
+  --bg-body: #050c18;
+  --bg-secondary: #0a182d;
+  --bg-card: rgba(13, 29, 54, 0.72);
+  --bg-card-hover: rgba(18, 41, 77, 0.85);
+  --bg-card-solid: #0d203b;
+  --bg-nav: rgba(5, 12, 24, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+  
+  --text-primary: #ffffff;
+  --text-secondary: #e2e8f0;
+  --text-muted: #8cb2d9;
+  
+  --accent-primary: #06b6d4;
+  --accent-secondary: #3b82f6;
+  --accent-highlight: #38bdf8;
+  --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #06b6d4 50%, #2563eb 100%);
+  --accent-gradient-alt: linear-gradient(135deg, #06b6d4 0%, #0ea5e9 100%);
+  --accent-glow: rgba(6, 182, 212, 0.35);
+  --accent-glow-strong: rgba(6, 182, 212, 0.65);
+  
+  --border-subtle: rgba(6, 182, 212, 0.2);
+  --border-hover: rgba(56, 189, 248, 0.5);
+  
+  --badge-bg: rgba(6, 182, 212, 0.12);
+  --badge-text: #67e8f9;
+  --badge-border: rgba(6, 182, 212, 0.3);
+  
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 35px rgba(6, 182, 212, 0.25);
+  --ring-color: rgba(6, 182, 212, 0.25);
+  
+  --dot-color: rgba(6, 182, 212, 0.08);
+  --preview-colors: #050c18, #06b6d4, #38bdf8;
+}
+
+[data-theme="emerald-green"] {
+  --theme-id: "emerald-green";
+  --theme-name: "Emerald Green";
+  --bg-body: #04120a;
+  --bg-secondary: #082114;
+  --bg-card: rgba(10, 36, 22, 0.72);
+  --bg-card-hover: rgba(14, 51, 31, 0.85);
+  --bg-card-solid: #0d2e1c;
+  --bg-nav: rgba(4, 18, 10, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+  
+  --text-primary: #f0fdf4;
+  --text-secondary: #dcfce7;
+  --text-muted: #86efac;
+  
+  --accent-primary: #10b981;
+  --accent-secondary: #059669;
+  --accent-highlight: #34d399;
+  --accent-gradient: linear-gradient(135deg, #34d399 0%, #10b981 50%, #059669 100%);
+  --accent-gradient-alt: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  --accent-glow: rgba(16, 185, 129, 0.35);
+  --accent-glow-strong: rgba(16, 185, 129, 0.65);
+  
+  --border-subtle: rgba(16, 185, 129, 0.2);
+  --border-hover: rgba(52, 211, 153, 0.5);
+  
+  --badge-bg: rgba(16, 185, 129, 0.12);
+  --badge-text: #a7f3d0;
+  --badge-border: rgba(16, 185, 129, 0.3);
+  
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 35px rgba(16, 185, 129, 0.25);
+  --ring-color: rgba(16, 185, 129, 0.25);
+  
+  --dot-color: rgba(16, 185, 129, 0.08);
+  --preview-colors: #04120a, #10b981, #34d399;
+}
+
+[data-theme="sunset"] {
+  --theme-id: "sunset";
+  --theme-name: "Sunset";
+  --bg-body: #110c13;
+  --bg-secondary: #1e1320;
+  --bg-card: rgba(36, 21, 38, 0.72);
+  --bg-card-hover: rgba(51, 29, 54, 0.85);
+  --bg-card-solid: #271629;
+  --bg-nav: rgba(17, 12, 19, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+  
+  --text-primary: #fff1f2;
+  --text-secondary: #ffe4e6;
+  --text-muted: #fda4af;
+  
+  --accent-primary: #f97316;
+  --accent-secondary: #f43f5e;
+  --accent-highlight: #fb7185;
+  --accent-gradient: linear-gradient(135deg, #fb923c 0%, #f97316 45%, #f43f5e 100%);
+  --accent-gradient-alt: linear-gradient(135deg, #f43f5e 0%, #a855f7 100%);
+  --accent-glow: rgba(249, 115, 22, 0.35);
+  --accent-glow-strong: rgba(244, 63, 94, 0.65);
+  
+  --border-subtle: rgba(249, 115, 22, 0.2);
+  --border-hover: rgba(251, 146, 60, 0.5);
+  
+  --badge-bg: rgba(249, 115, 22, 0.12);
+  --badge-text: #fdba74;
+  --badge-border: rgba(249, 115, 22, 0.3);
+  
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 35px rgba(249, 115, 22, 0.25);
+  --ring-color: rgba(249, 115, 22, 0.25);
+  
+  --dot-color: rgba(249, 115, 22, 0.08);
+  --preview-colors: #110c13, #f97316, #f43f5e;
+}
+
+[data-theme="minimal-light"] {
+  --theme-id: "minimal-light";
+  --theme-name: "Minimal Light";
+  --bg-body: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: rgba(255, 255, 255, 0.94);
+  --bg-card-hover: rgba(255, 255, 255, 1);
+  --bg-card-solid: #ffffff;
+  --bg-nav: rgba(248, 250, 252, 0.88);
+  --bg-glass: rgba(15, 23, 42, 0.03);
+  
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  
+  --accent-primary: #2563eb;
+  --accent-secondary: #4f46e5;
+  --accent-highlight: #3b82f6;
+  --accent-gradient: linear-gradient(135deg, #2563eb 0%, #4f46e5 50%, #7c3aed 100%);
+  --accent-gradient-alt: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+  --accent-glow: rgba(37, 99, 235, 0.2);
+  --accent-glow-strong: rgba(37, 99, 235, 0.4);
+  
+  --border-subtle: rgba(203, 213, 225, 0.85);
+  --border-hover: rgba(37, 99, 235, 0.45);
+  
+  --badge-bg: rgba(37, 99, 235, 0.08);
+  --badge-text: #1d4ed8;
+  --badge-border: rgba(37, 99, 235, 0.22);
+  
+  --shadow-card: 0 10px 30px -10px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.04);
+  --shadow-glow: 0 0 30px rgba(37, 99, 235, 0.15);
+  --ring-color: rgba(37, 99, 235, 0.2);
+  
+  --dot-color: rgba(15, 23, 42, 0.05);
+  --preview-colors: #f8fafc, #2563eb, #4f46e5;
+}

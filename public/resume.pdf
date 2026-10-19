@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 480 >>
+stream
+BT
+/F1 22 Tf
+50 730 Td
+(Pravalika M - Software Developer Resume) Tj
+/F1 12 Tf
+0 -30 Td
+(Email: pravalikagoud80@gmail.com | Phone: +91 9177993188 | Hyderabad, India) Tj
+0 -20 Td
+(LinkedIn: https://linkedin.com/in/pravalikagoud | GitHub: https://github.com/pravalikagoud) Tj
+0 -35 Td
+(EDUCATION) Tj
+0 -18 Td
+(MLR Institute of Technology - B.E. Computer Science and Engineering (CGPA: 8.40/10.0)) Tj
+0 -18 Td
+(Madhira Institute of Technology & Science - Diploma in CSE (83.3%)) Tj
+0 -35 Td
+(CORE SKILLS) Tj
+0 -18 Td
+(Languages: Java, Python, JavaScript, C#, C++, SQL, HTML5, CSS3) Tj
+0 -18 Td
+(Frameworks & Tools: React.js, Node.js, Express.js, Flask, OpenCV, TensorFlow, MySQL, Docker) Tj
+0 -35 Td
+(FEATURED PROJECTS) Tj
+0 -18 Td
+(1. Quick Hiring - Job Portal Website (React, Node, Express, MySQL)) Tj
+0 -18 Td
+(2. Eye Monitoring & Iris Detection System (Python, OpenCV, TensorFlow, Flask)) Tj
+0 -18 Td
+(3. AI-Powered Conversational Chatbot (Python, NLP, Flask, REST APIs)) Tj
+0 -18 Td
+(4. Travel Booking & Itinerary Platform (JavaScript, HTML5, CSS3, MySQL)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000228 00000 n 
+0000000760 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+829
+%%EOF
